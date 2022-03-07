@@ -3,8 +3,10 @@ import random
 import json
 import os
 
-class RPS:
 
+class RPS:
+    #Play the rock paper scissor game, determine the result and save it on to a file for now. The result can also be
+    #stored on a database
     def playGame(self):
         gameArticles = ['Rock','Paper','Scissors']
         self.user1 = input('Enter the name of first user.')
