@@ -1,5 +1,8 @@
 #Game board
 from Game_RPS import game
+
+#This function is like a collection of games that the user can select, out of which Rock Paper Scissor is
+#one such game. The idea here was to finish a game, come back and play another game or quit completely.
 def startGame():
     gameList = ['1:Game1','2:RockPaperScissor','3:Game2']
     inpText = 'Please enter the corresponding numbers of the game that you want to play \n '
